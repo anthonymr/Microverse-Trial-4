@@ -1,0 +1,65 @@
+html, body, main {
+    box-sizing: border-box;
+    margin: 0;
+    font-family: sans-serif;
+    background-color: rgb(81, 66, 133);
+    color: white;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 70px;
+}
+
+h1 {
+    font-size: 18px;
+    font-weight: 300;
+    margin: 20px 0 0 0;
+    line-height: 16px;
+}
+
+#description {
+    font-size: 11px;
+    font-weight: 300;
+    margin: 5px 5px 20px 5px;
+}
+
+form {
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.697);
+    padding: 20px;
+    border-radius: 2px;
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    font-size: 11px;
+}
+
+form input[type='text'],
+form input[type='email'],
+form input[type='number'],
+form input[type='select']{
+    margin-bottom: 5px;
+}
+
+.checkbox-container {
+    margin: 10px 0;
+}
+
+.checkbox-container > div{
+    display: flex;
+    margin: 3px 0;
+}
+
+textarea {
+    resize: none;
+}
+
+button {
+    margin-top: 20px;
+    background-color: rgb(47, 141, 47);
+}
